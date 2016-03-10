@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Add toolbar to the actionbar in the application
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar_actionBar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Manohar");
 
